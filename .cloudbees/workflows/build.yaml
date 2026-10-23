@@ -35,7 +35,7 @@ jobs:
     vars: inherit
     secrets: inherit
     with:
-      appName: hackers-auth
+      appName: dd-hackers-auth
       versionStart: "2.0"
-      repo: shozab-unify-examples/sn-hackers-auth
+      repo: ddreakford/dd-hackers-auth
     needs: test
