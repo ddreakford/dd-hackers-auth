@@ -38,4 +38,4 @@ jobs:
       appName: hackers-auth
       versionStart: "2.0"
       repo: ddreakford/dd-hackers-auth
-    needs: test
+    needs: build_test
