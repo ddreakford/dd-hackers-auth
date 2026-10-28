@@ -19,9 +19,9 @@ jobs:
     environment: ${{ inputs.environment }}
     steps:
       - name: Checkout
-        uses: cloudbees-io/checkout@v1
+        uses: cloudbees-io/checkout@v2
         with:
-          repository: ddreakford/dd-hackers-auth
+          repository: https://github.com/ddreakford/dd-hackers-auth
       - uses: cloudbees-days/setup-kubeconfig
         name: Set kubeconfig
         with:
